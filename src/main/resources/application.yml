@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: 07_Cloud_Congig_Server
+    
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/murthykolli/configuration_properties
+    
+server:
+  port: 9093    
